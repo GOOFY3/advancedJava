@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>
+		Shapes
+	</title>
+</head>
+<body>
+	<canvas id="myCanv" height="200" width="100" style="background-color:red"><p>Rectangle</p></canvas><br><br><br>
+	<canvas id="myCanvas"><p>CIRCLE</p></canvas>
+	<script>
+		var c = document.getElementById("myCanvas");
+		var cd = c.getContext("2d");
+		cd.beginPath();
+		cd.arc(95, 60, 60, 0, 2 * Math.PI);
+		cd.stroke();
+	</script>
+</body>
+</html>
